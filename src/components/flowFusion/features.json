@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "icon": "/images/icon/image.svg",
+        "title": "Granular editing",
+        "desc": "Harness the capability to make detailed edits to your image based on your desired product. For example, removing something specific from the background, or adding a new element.",
+        "image": "/images/granular.png"
+    },
+    {
+        "id": 1,
+        "icon": "/images/icon/gpt.svg",
+        "title": "GPT + Image Gen Fusion",
+        "desc": "For the first time, we’re fusing the power of ChatGPT and Image Generation AI together to create the most powerful tool for creators that currently exists.",
+        "image": "/images/gpt.png"
+    },
+    {
+        "id": 2,
+        "icon": "/images/icon/token.svg",
+        "title": "Token Efficiency",
+        "desc": "Compared to Midjourney, Myntist FlowFusion uses state-of-the-art technology to increase token efficiency and save you money. ",
+        "image": "/images/token.png"
+    }
+]
