@@ -71,21 +71,27 @@ const HomeNav = () => {
 
         <div className={scroll ? "scroll-navbar home-scroll navScroll" : "scroll-navbar home-scroll"}> 
                 <ul className="nav">
-                    <li className="">
-                        <Link href="#about">About</Link> 
-                    </li> 
-                    <li className="">
-                        <Link href="#products">Our Products</Link> 
-                    </li> 
-                    <li className="">
-                        <Link href="/treasurebox">Treasurebox</Link> 
-                    </li> 
-                    <li className="">
-                        <Link href="/">Founders Pass</Link> 
-                    </li>   
-                    <li className="">
-                        <Link href="/">NFT Marketplace</Link> 
-                    </li>   
+                <li className="">
+                            <Link href="#about" onClick={toggleOffcanvas}>About</Link> 
+                        </li> 
+                        <li className="">
+                            <Link href="#products" onClick={toggleOffcanvas}>Our Products</Link> 
+                        </li> 
+                        <li className="">
+                            <Link href="/treasurebox">Treasurebox</Link> 
+                        </li> 
+                        <li className="">
+                            <Link href="/founders">Founder</Link> 
+                        </li>   
+                        <li className="">
+                            <Link href="/founder-pass">Founders Pass</Link> 
+                        </li>   
+                        <li className="">
+                            <Link href="/contract-address">Contract Address</Link> 
+                        </li>   
+                        <li className="">
+                            <Link href="/">NFT Marketplace</Link> 
+                        </li> 
                 </ul> 
         </div>
 

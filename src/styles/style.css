@@ -67,10 +67,10 @@
   transition: all 0.4s;
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1420.98px) {
   .main-navbar .nav_list a {
     padding: 9px 20px;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
