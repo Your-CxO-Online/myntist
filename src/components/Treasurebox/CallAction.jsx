@@ -7,7 +7,7 @@ const CallAction = () => {
               <div className="col-lg-12">
                 <div className="call-to-content">
                   <div className="h2" data-aos="fade-up" data-aos-duration="1000">
-                    <b>Join our Discord community </b>
+                    <b>Join our Telegram community </b>
                     and start collaborating
                   </div>
                   <button

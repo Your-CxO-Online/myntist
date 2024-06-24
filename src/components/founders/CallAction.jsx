@@ -12,17 +12,17 @@ const CallAction = () => {
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								<b>Join our Discord community </b>
+								<b>Join our Telegram community </b>
 								to discover more
 							</div>
 							<Link
-								href="https://discord.gg/myntist"
+								href="https://t.me/myntist_portal"
 								target="_blank"
 								className="btn-lg"
 								data-aos="fade-up"
 								data-aos-duration="1200"
 							>
-								Join our Discord <BsChevronRight />
+								Join our Telegram <BsChevronRight />
 							</Link>
 						</div>
 					</div>

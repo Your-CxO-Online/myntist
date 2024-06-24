@@ -229,5 +229,50 @@ p {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1500px;
+}
+
+
+
+.profileSection {
+  display: inline-block;
+  padding: 20px; /* Padding for the section */
+  width:400px;
+}
+
+.profileSection img {
+  width: 500px;
+  height:600px;
+  object-fit: cover;
+}
+.profileSection2 {
+  display: inline-block;
+  padding: 20px; /* Padding for the section */
+  width:400px;
+}
+
+.profileSection2 img {
+  width: 500px;
+  height:600px;
+  object-fit: cover;
+}
+
+@media (max-width: 991.98px) {
+
+  .profileSection {
+    display: block;
+    padding: 20px; /* Padding for the section */
+    width:100%;
+  }
+}
+
+
+.overlay {
+  background: #2A89EA; /* Background color of the overlay */
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
 }

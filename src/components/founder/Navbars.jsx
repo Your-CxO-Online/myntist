@@ -21,7 +21,7 @@ const Navbars = () => {
 				<div className="container">
 					<div className="logo">
 						<Link href="/">
-							<img src="/images/founder-logo.svg" alt="main logo" />
+							<img src="/images/founder-only-logo.png" alt="main logo" />
 						</Link>
 					</div>
 					<button
@@ -33,13 +33,12 @@ const Navbars = () => {
 					</button>
 
 					<div
-						className={`navbarOffset ms-auto ${
-							offcanvasOpen ? "show" : ""
-						}`}
+						className={`navbarOffset ms-auto ${offcanvasOpen ? "show" : ""
+							}`}
 					>
-						<div className="offset-header">
+						<div className="offset-header flex-center">
 							<h5 className="offcanvas-title">
-								<img src="/images/founder-logo.svg" alt="main logo" />
+								<img src="/images/founder-only-logo.png" alt="main logo" />
 							</h5>
 							<button
 								type="button"
@@ -49,27 +48,18 @@ const Navbars = () => {
 						</div>
 						<ul className="nav_list">
 							<li className="">
-								<Link href="#echosystem" onClick={toggleOffcanvas}>
-									Ecosystem
+								<Link href="#" onClick={toggleOffcanvas}>
+									Founder
 								</Link>
 							</li>
 							<li className="">
-								<Link href="#Benefits" onClick={toggleOffcanvas}>
-									Benefits
+								<Link href="#" onClick={toggleOffcanvas}>
+									Journey
 								</Link>
 							</li>
 							<li className="">
-								<Link href="#feature" onClick={toggleOffcanvas}>
-									Features
-								</Link>
-							</li>
-							<li className="">
-								<Link
-									href="https://t.me/myntist_portal"
-									target="_blank"
-									onClick={toggleOffcanvas}
-								>
-									Telegram
+								<Link href="#" onClick={toggleOffcanvas}>
+									Experience
 								</Link>
 							</li>
 						</ul>
@@ -85,9 +75,8 @@ const Navbars = () => {
 						</a>
 					</div>
 					<div
-						className={`${
-							offcanvasOpen ? "show offcanvas-backdrop fade" : ""
-						}`}
+						className={`${offcanvasOpen ? "show offcanvas-backdrop fade" : ""
+							}`}
 						onClick={toggleOffcanvas}
 					></div>
 				</div>
@@ -96,27 +85,26 @@ const Navbars = () => {
 			<div className={scroll ? "scroll-navbar navScroll" : "scroll-navbar"}>
 				<ul className="nav">
 					<li className="">
-						<Link href="#echosystem" onClick={toggleOffcanvas}>
-							Ecosystem
+						<Link href="#" onClick={toggleOffcanvas}>
+							Founder
 						</Link>
 					</li>
 					<li className="">
-						<Link href="#Benefits" onClick={toggleOffcanvas}>
-							Benefits
+						<Link href="#" onClick={toggleOffcanvas}>
+							Journey
 						</Link>
 					</li>
 					<li className="">
-						<Link href="#feature" onClick={toggleOffcanvas}>
-							Feature
+						<Link href="#" onClick={toggleOffcanvas}>
+							Experience
 						</Link>
 					</li>
 					<li className="">
 						<Link
-							href="https://t.me/myntist_portal"
-							target="_blank"
-							onClick={toggleOffcanvas}
+							href="#"
+				
 						>
-							Telegram
+							Become a founder
 						</Link>
 					</li>
 				</ul>

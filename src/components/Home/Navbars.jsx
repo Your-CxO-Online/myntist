@@ -45,19 +45,25 @@ const HomeNav = () => {
                             <Link href="/treasurebox">Treasurebox</Link> 
                         </li> 
                         <li className="">
-                            <Link href="/founders">Founders Pass</Link> 
+                            <Link href="/founders">Founder</Link> 
+                        </li>   
+                        <li className="">
+                            <Link href="/founder-pass">Founders Pass</Link> 
+                        </li>   
+                        <li className="">
+                            <Link href="/contract-address">Contract Address</Link> 
                         </li>   
                         <li className="">
                             <Link href="/">NFT Marketplace</Link> 
                         </li> 
                     </ul>
                     <div className="nav-btn d-lg-none">
-                        <a href="https://discord.gg/myntist" target="_blank" className='nav_btn'>Get started</a>
+                        <a href="https://t.me/myntist_portal" target="_blank" className='nav_btn'>Get started</a>
                     </div>
                 </div>
                
                 <div className="nav-btn d-none d-lg-block ms-auto">
-                    <a href="https://discord.gg/myntist" target="_blank" className='nav_btn'>Get started</a>
+                    <a href="https://t.me/myntist_portal" target="_blank" className='nav_btn'>Get started</a>
                 </div>
                 <div className={`${offcanvasOpen ? "show offcanvas-backdrop fade" : ""}`} onClick={toggleOffcanvas}></div>
             </div>

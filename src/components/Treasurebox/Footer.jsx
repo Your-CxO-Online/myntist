@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import { FaDiscord,FaTwitter } from "react-icons/fa";
+import { FaDiscord,FaTelegram,FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -20,7 +20,7 @@ const Footer = () => {
                                     <Link href="/#products">Other Products</Link>
                                 </div>
                                 <div className="footer-btn">
-                                    <a href="https://discord.gg/myntist" target="_blank" className="btn-footer">Get started</a>
+                                    <a href="https://t.me/myntist_portal" target="_blank" className="btn-footer">Get started</a>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ const Footer = () => {
                     <div className="col-lg-12">
                         <div className="copyright">
                             <div className="copyright-text"> 
-                                <Link href="/"><FaDiscord/></Link> 
+                                <Link href="https://t.me/myntist_portal" target="_blank"><FaTelegram/></Link> 
                                 <Link href="/"><FaTwitter/></Link> 
                                 <p>© Myntist 2023</p>
                             </div>

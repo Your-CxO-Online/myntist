@@ -1,6 +1,6 @@
 'use client'; 
 import Slider from "react-slick";
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord,FaTelegram } from "react-icons/fa";
 import Link from "next/link";
 
 const Community = () => {
@@ -80,7 +80,7 @@ const Community = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="text-center" data-aos="fade-up">
-                            <Link href="https://discord.gg/myntist" target="_blank" className="btn-discord"><span>Join Discord and Test</span> <FaDiscord/></Link>
+                            <Link href="https://t.me/myntist_portal" target="_blank" className="btn-discord"><span>Join Telegram and Test</span> <FaTelegram/></Link>
                         </div>
                     </div>
                 </div>

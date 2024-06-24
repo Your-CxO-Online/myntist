@@ -15,7 +15,7 @@ const CallToAction = () => {
                 <b>infinite assets.</b>
               </div>
               <a
-                href="https://discord.gg/myntist"
+                href="https://t.me/myntist_portal"
                 className="btn-lg"
                 target="_blank"
                 data-aos="fade-up"

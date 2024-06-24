@@ -1,16 +1,10 @@
  
 import Head from 'next/head' 
 import { Inter } from 'next/font/google'   
-import Navbars from '@/components/founders/Navbars'
-import Footer from '@/components/founders/Footer'
-import Hero from '@/components/founders/Hero' 
-import Features from '@/components/founders/Features'
-import Counter from '@/components/founders/Counter'
-import Benefits from '@/components/founders/Benefits'
-import Myntist from '@/components/founders/Myntist'
-import CallAction from '@/components/founders/CallAction'
-import Testimonial from '@/components/founders/Testimonial'
-import Investments from '@/components/founders/Investments'
+import Navbars from '@/components/founder/Navbars'
+import Footer from '@/components/founder/Footer'
+import Hero from '@/components/founder/Hero' 
+import Investments from '@/components/founder/Investments'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -27,13 +21,9 @@ const founders = () => {
         <main className="main-wrapper founders-wrapper"> 
             <Navbars/>
             <Hero/>
-            <Features/>
-            <Counter/>
-            <Benefits/>
-            <Myntist/>
-            <Investments/>
-            {/* <Testimonial/> */}
-            <CallAction/>
+  
+            {/* <Investments/> */}
+
             <Footer/>
         </main>
         </>

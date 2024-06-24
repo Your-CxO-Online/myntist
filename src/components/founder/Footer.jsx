@@ -11,16 +11,16 @@ const Footer = () => {
 							<div className="footer-nav">
 								<div className="logo">
 									<img
-										src="/images/logo.svg"
+										src="/images/founder-only-logo.png"
 										alt="logo"
 										width={175}
 										height={70}
 									/>
 								</div>
 								<div className="nav">
-									<Link href="#echosystem">Ecosystem</Link>
-									<Link href="#Benefits">Benefits</Link>
-									<Link href="#feature">Feature</Link>
+									<Link href="#echosystem">Founder</Link>
+									<Link href="#Benefits">Journey</Link>
+									<Link href="#feature">Experience</Link>
 									<Link
 										href="https://t.me/myntist_portal"
 										target="_blank"
@@ -48,7 +48,7 @@ const Footer = () => {
 						<div className="copyright">
 							<div className="copyright-text">
 								<Link href="https://t.me/myntist_portal" target="_blank">
-									<FaTelegram/>
+									<FaTelegram />
 								</Link>
 								<Link href="/">
 									<FaTwitter />

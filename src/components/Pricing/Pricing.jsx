@@ -96,7 +96,7 @@ const Pricing = () => {
 
                     <div className="col-lg-12">
                         <div className="text-center discord-btn-p">
-                            <Link href="https://discord.gg/myntist" target="_blank" className="btn-discord">
+                            <Link href="https://t.me/myntist_portal" target="_blank" className="btn-discord">
                                 Join Discord and Test <BsDiscord/>
                             </Link>
                         </div>
